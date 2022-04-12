@@ -72,7 +72,7 @@ header{
 }
 .language {
     border-bottom: 1px solid grey;
-    width: 50%;
+    width: 100%;
     color: var(--skyblue);
     margin-bottom: 7.5px;
     margin-top: 10px;
