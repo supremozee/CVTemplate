@@ -125,8 +125,6 @@ footer {
 }
 .jobTitle, .companyName {
     display: flex;
-    width: 50%;
-    justify-content: space-between;
 }
 .exp1, .company{
     font-size: 12.5px;
@@ -134,4 +132,5 @@ footer {
 }
 .year, .state {
     display: flex;
+    margin-left: 10px;
 }
