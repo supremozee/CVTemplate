@@ -1,0 +1,137 @@
+:root {
+    --skyblue: #87ceeb;
+    --dark: #000000
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    width: 100%;
+    max-width: 700px;
+}
+.headerColor {
+    background: var(--skyblue);
+    width: 40%;
+    margin-top: 1rem;
+    height: 40px;
+}
+.resumeBody {
+    display: flex;
+}
+.leftSection {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    height: 100vh;
+}
+.fullName {
+    margin: 20px;
+    width: 100%;
+    color: var(--skyblue);
+    display: flex;
+    flex-direction: column;
+}
+.firstName {
+    font-size: 2em;
+    font-weight: 400;
+}
+.lastName {
+    font-size: 2em;
+    font-weight: 400;
+}
+.Image {
+    margin: 20px;
+    width: 80%;
+}
+.resumeImage {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+.contactSection {
+    margin: 0 20px 20px 20px;
+    width: 80%;
+}
+.contactTittle {
+    border-bottom: 1px solid grey;
+    width: 100%;
+    color: var(--skyblue)
+} 
+.contactAddress {
+    margin-top: 10px ;
+    font-size: 17px;
+    font-weight: 700;
+}
+.address {
+    margin-bottom: 15px;
+}
+.phoneNum, .EmailAdd {
+    font-size: 17px;
+    font-weight: 700;
+}
+.language {
+    border-bottom: 1px solid grey;
+    width: 50%;
+    color: var(--skyblue);
+    margin-bottom: 7.5px;
+    margin-top: 10px;
+}
+.langList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+footer {
+    display: flex;
+    justify-content: flex-end;
+    /* width: 100%; */
+}
+.footerColor {
+    background-color: var(--skyblue);
+    width: 70%;
+    height: 30px;
+    margin-top: 20px;
+}
+.rightSection {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    height: 100vh;
+}
+.paragraph {
+    letter-spacing: 0.5px;
+}
+.rightSection h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+    width: 30%;
+    color: var(--skyblue);
+}
+.skillHighlghts{
+    display: flex;
+    letter-spacing: 0.5px;
+
+}
+.skillHighlghts li {
+   padding: 0.4rem;
+}
+.jobRole {
+    letter-spacing: 0.5px;
+}
+.jobRole li {
+   padding: 0.4rem;
+}
+.jobTitle, .companyName {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.exp1, .company{
+    font-size: 12.5px;
+    font-weight: 800;
+}
+.year, .state {
+    display: flex;
+}
